@@ -3,11 +3,9 @@ import { Header } from "./components/Header";
 import { Ranking } from "./components/Ranking";
 import { coins } from "../data/coins";
 import { Cryptolist } from "./components/Cryptolist";
-import { Analytics } from "@vercel/analytics/next";
 const App = () => {
   return (
     <>
-      <Analytics />
       <div>
         <header>
           <Header />
